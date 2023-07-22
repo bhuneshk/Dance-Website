@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap');
+
+#navbar{
+    background-color: black;
+}
+#navbar ul{
+     display: flex;
+     text-align: center; 
+     justify-content: center;
+}
+
+#navbar li{
+      list-style: none;
+}
+
+
+#navbar li a{
+     text-decoration: none;
+     padding: 7px 50px;
+     color: white;
+     font-size: 30px;
+     font-family: 'Tektur', cursive;
+}
+#navbar li a:hover{
+    font-weight: bold;
+}
+#introsection{
+    height: 500px;
+    background-color: red;
+    background:center/cover no-repeat url('/static/bg.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 50px;
+    opacity: 1.8;
+    font-family: 'Tektur', cursive;
+}
+h3{
+    text-align: center;
+}
+#introsection div.small{
+      font-size: 2.5rem;
+}
+#missionsection{
+    height: 300px;
+    font-family: 'Tektur', cursive;
+    background-color: rgb(179 28 28 / 69%);;
+}
+#missionsection h2{
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 4px;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    width: 30%;
+    padding: 8px;
+    border-radius: 20px;
+    margin-left: 18px;
+    height: 206px;
+}
+#sponsersection{
+    height: 250px;
+    background-color: #f0caca;
+    font-family: 'Tektur', cursive;
+}
+#sponsersection h2{
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 7px;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+.card-content{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.card-content img{
+    width: 124px;
+    height: 134px;
+    margin-right: 34px;
+    display: flex;
+}
+
+.sponsors-img img{
+     width: 150px;
+     height: 150px;
+     margin: 10px 40px;
+}
+.sponsors-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    margin-top: 44px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    margin-bottom: 30px;
+}
+.myInput{
+    width: 400px;
+    height: 36px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+.btn{
+    width: 97px;
+    height: 36px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
